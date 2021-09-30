@@ -5,6 +5,10 @@
   box-sizing: border-box
 }
 
+body {
+  background: #999;
+}
+
 body,
 input {
   font-family: 'Raleway', sans-serif;
