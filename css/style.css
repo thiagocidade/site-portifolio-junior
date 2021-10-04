@@ -228,9 +228,52 @@ section a .cartao {
 /****************************************************
   SOBRE
 *****************************************************/
+.conteudo .content {
+  padding: 15px 0;
+}
+
+.conteudo .content h1 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-bottom: 40px;
+}
+
+.conteudo .content h1::after {
+  content: "";
+  display: block;
+  width: 50px;
+  height: 5px;
+  background: #00D308;
+}
+
+.conteudo .content .box-text {
+  text-align: justify;
+  color: #333;
+  line-height: 1.8;
+}
+
+.conteudo .content .box-text p {
+  margin: 0 0 20px;
+}
+
+.conteudo .content .box-text .subtitulo {
+  font-weight: 700;
+  display: flex;
+  justify-content: stretch;
+}
 
 
+.conteudo .content .box-text .subtitulo::before {
+  content: "";
+  width: 8px;
+  margin-right: 10px;
+  background: #00D308;
+}
 
+.conteudo .content .box-text ul {
+  list-style: lower-alpha;
+  margin-left: 45px;
+}
 
 
 /****************************************************
